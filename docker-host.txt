@@ -1,0 +1,10 @@
+token: <token>
+size: s-1vcpu-2gb
+image: ubuntu-20-04-x64
+region: sgp1
+
+docker-machine create mymachine 
+	--digitalocean-access-token your_token_here 
+	--digitalocean-image ubuntu-20-04-x64  
+	--digitalocean-size s-1vcpu-2gb 
+	--digitalocean-region sgp1
