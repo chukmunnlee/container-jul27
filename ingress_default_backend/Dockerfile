@@ -14,5 +14,3 @@ RUN npm install
 EXPOSE ${APP_PORT}
 
 ENTRYPOINT [ "node", "main.js" ]
-
-CMD [ "${APP_PORT}" ]
